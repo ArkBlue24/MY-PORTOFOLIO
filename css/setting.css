@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+  height: 10000px;
+}
+
+/* Cinzel */
+h1,
+h2 {
+  font-family: "Cinzel", serif;
+}
+
+/* Raleway */
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* CormorantGaramond */
+.quote {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+}
+
+/* NotoSansJP */
+.japanese {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+}

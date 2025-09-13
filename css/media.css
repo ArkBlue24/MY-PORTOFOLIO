@@ -1,0 +1,130 @@
+/* media queries */
+
+/* deskop besar */
+@media (max-width: 1366px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .navbar .navbar-extra {
+    display: block;
+  }
+  #menu {
+    display: inline-block;
+  }
+  .home-section {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+  }
+  .home-left {
+    padding: 1rem;
+  }
+  .home-image1,
+  .home-image2 {
+    width: 300px;
+    height: auto;
+  }
+  .kata {
+    display: flex;
+    justify-content: center;
+  }
+  .home-kata-kata {
+    display: inline-block;
+  }
+  .home-button,
+  .home-sosial {
+    display: flex;
+    justify-content: center;
+  }
+  .home-judul1 {
+    display: none;
+  }
+  .home-judul2 {
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  .home-paragraf2 {
+    padding: 0 30px;
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    display: block;
+  }
+  .home-paragraf1 {
+    display: none;
+  }
+  .home-subtitle {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .home-button {
+    font-size: 1.5rem;
+  }
+  .home-button svg {
+    width: 1.5rem;
+    height: auto;
+  }
+  .home-sosial svg {
+    width: 25px;
+    height: auto;
+  }
+  .about-right span {
+    display: none;
+  }
+  .home-judul2 {
+    font-size: 1rem;
+  }
+  .kata {
+    margin: 1rem;
+  }
+  .about-content {
+    flex-wrap: wrap;
+  }
+  .about-button {
+    justify-content: center;
+  }
+  .about-right h1 {
+    text-align: center;
+    font-weight: 1000;
+  }
+}
+
+/* hp */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .home-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 1rem;
+  }
+  .home-image1,
+  .home-image2 {
+    width: 200px;
+    height: auto;
+  }
+}

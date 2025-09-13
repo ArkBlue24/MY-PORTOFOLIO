@@ -1,0 +1,205 @@
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("../img/home-horimiya.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+}
+
+.home-left {
+  padding: 6rem;
+}
+
+.home-kata-kata {
+  font-size: 0.8rem;
+  background: #000000;
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  border-radius: 16px;
+  margin-bottom: 0.5rem;
+  color: #ddd;
+  box-shadow: 0 0 10px #000000;
+  letter-spacing: 0.5rem;
+  font-weight: 600;
+}
+
+.home-judul1 {
+  font-size: 2.1rem;
+  margin-bottom: 0.2rem;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.home-judul2 {
+  font-size: 2.1rem;
+  margin-bottom: 0.2rem;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  display: none;
+}
+
+.home-paragraf1 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  max-width: 450px;
+  font-weight: 300;
+}
+.home-paragraf2 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  max-width: 450px;
+  font-weight: 300;
+  display: none;
+}
+
+.home-subtitle {
+  font-weight: 300;
+}
+
+.home-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.1rem;
+}
+
+.home-button a {
+  display: inline-flex;
+  font-size: 1.1rem;
+  gap: 5px;
+  margin-bottom: 1rem;
+  color: azure;
+  font-weight: 600;
+}
+
+.home-button .proyek {
+  color: rgb(0, 0, 0);
+}
+.home-button .proyek:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.3s ease, color 0.3s ease;
+}
+.home-button .saran:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.home-button svg {
+  width: 1rem;
+  height: auto;
+}
+
+.proyek {
+  background-color: azure;
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.proyek:hover {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  transition: 0.3s ease, color 0.3s ease;
+}
+.saran {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+.saran:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.home-sosial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-sosial a {
+  display: inline-flex;
+  gap: 5px;
+  margin-bottom: 1rem;
+  color: azure;
+  font-weight: bold;
+}
+
+.home-button svg {
+  width: 1rem;
+  height: auto;
+}
+
+.home-sosial svg {
+  width: 1.5rem;
+  height: auto;
+}
+
+.github,
+.instagram,
+.whatsapp {
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  transition: 0.3s ease, color 0.3s ease;
+}
+.github:hover,
+.instagram:hover,
+.whatsapp:hover {
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.home-right {
+  position: relative; /* container sebagai acuan posisi */
+  width: 500px; /* sesuaikan */
+  height: 450px; /* sesuaikan */
+}
+
+.home-image1 {
+  position: absolute;
+  width: 400px; /* ukuran yang wajar */
+  height: auto;
+  border: 2px solid black;
+  border-radius: 200px;
+  box-shadow: 0 0 25px black;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.home-image2 {
+  position: absolute;
+  width: 400px; /* ukuran yang wajar */
+  height: auto;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.home-image1 {
+  z-index: 10;
+}
+
+.home-image2 {
+  z-index: 5;
+}
+
+.home-image1:hover,
+.home-image2:hover {
+  opacity: 0;
+}

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.projek-gua {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("../img/home-horimiya.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Cinzel */
+h1,
+h2 {
+  font-family: "Cinzel", serif;
+}
+
+/* Raleway */
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* CormorantGaramond */
+.quote {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+}
+
+/* NotoSansJP */
+.japanese {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+}
+
+.projek-judul h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+.projek-judul {
+  justify-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.projek-judul p {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.projek-judul h5 {
+  color: rgb(255, 255, 255);
+  font-size: 2px;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+
+.projek-projek {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 2rem;
+}
+
+.projek-card {
+  background-color: #000000;
+  max-width: 360px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 2px solid black;
+  margin: 1rem;
+}
+
+.projek-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 2px solid white;
+}
+
+.projek-info h3 {
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+}
+
+.projek-info p {
+  color: white;
+  text-align: left;
+  padding: 0.7rem 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+.projek-info {
+  padding: 1rem;
+}
+.projek-tags {
+  text-align: left;
+}
+
+.projek-tag {
+  color: black;
+  background-color: white;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 8px;
+  margin: 0 0 0 5px;
+}
+.projek-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.projek-links a {
+  display: inline-flex;
+  font-size: 1.3rem;
+}
+
+.projek-view {
+  margin-top: 0.5rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 5px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.projek-links svg {
+  width: 1.3rem;
+  height: auto;
+}

@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.4rem 7%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+.navbar .navbar-logo {
+  font-size: 1.5rem;
+  color: azure;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+}
+
+.navbar .navbar-logo span {
+  color: brown;
+}
+
+.navbar .navbar-nav a {
+  display: inline-block;
+  margin: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.navbar .navbar-nav a:hover {
+  color: chocolate;
+}
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid white;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+
+.navbar .navbar-extra a {
+  color: white;
+}
+
+.navbar .navbar-extra {
+  display: none;
+}
+.navbar .navbar-extra a:hover {
+  color: chocolate;
+}
